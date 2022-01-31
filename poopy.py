@@ -1,5 +1,5 @@
 class Human:
-    #metodo init agrega artributos e inizializar atributos
+    #metodo init agrega atributos e inizializa estos mismos.
     #self referencia al objeto que se creara, (si mismo)
     def __init__(self, nombre, edad):
         self.nombre = nombre
@@ -9,10 +9,10 @@ class Human:
         print(f'Nombre: {self.nombre}, Edad: {self.edad}')
 
 
-persona1 = Human('Caballo', 45)
-persona1.watch()
-persona2 = Human('Caballito', 21)
-persona2.watch()
+human = Human('Caballo', 45)
+human.watch()
+human2 = Human('Caballito', 21)
+human2.watch()
 
 
 print(type(Human))
