@@ -1,5 +1,5 @@
 class Human:
-    #metodo init agrega atributos e inizializa estos mismos.
+    #metodo init agrega atributos e inicializa estos mismos.
     #self referencia al objeto que se creara, (si mismo)
     def __init__(self, nombre, edad):
         self.nombre = nombre
