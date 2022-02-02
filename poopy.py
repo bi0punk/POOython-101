@@ -11,7 +11,7 @@ class Human:
 
 human = Human('Caballo', 45)
 human.watch()
-human2 = Human('Caballito', 21)
+human2 = Human('Mula', 21)
 human2.watch()
 
 
