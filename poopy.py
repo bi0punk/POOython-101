@@ -9,9 +9,9 @@ class Human:
         print(f'Nombre: {self.nombre}, Edad: {self.edad}')
 
 
-human = Human('Caballo', 45)
+human = Human('People1', 45)
 human.watch()
-human2 = Human('Mula', 21)
+human2 = Human('People2', 21)
 human2.watch()
 
 
